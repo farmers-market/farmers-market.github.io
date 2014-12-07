@@ -33,3 +33,33 @@ body{
 .logo-layer2{
 	background-color: #9BB7D1;
 }
+
+.lower-bar{
+	position: absolute;
+	top: 100vh;
+	background-color: #242D55;
+	height: 27%;
+	width: 100%;
+
+
+
+}
+
+
+.logo-ly1{
+width:20%;
+}
+.logo-ly2{
+position: absolute;
+width: 20%;
+left: 0;
+
+}
+
+
+
+
+
+
+
+
