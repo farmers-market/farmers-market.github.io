@@ -49,6 +49,7 @@
             <img class=" animate-me box-b logo-ly1"src="img/assets/logolayer2.png">
    
             <img class=" animate-me box-a logo-ly2"src="img/assets/logolayer3.png">
+            <img class="berries animate-me box-c" src="apple-touch-icon-precomposed.png">
   
             <img id="prlx_lyr_2"class=" animated pulse bw-logo"src="img/assets/bw-logo.png">
 
@@ -141,9 +142,15 @@
 
         });
     </script>
-      <script>
+    <script>
         $('.animate-me').on('click', function() {
             $('.box-b').addClass('animated fadeOutLeft');
+
+        });
+    </script>
+    <script>
+        $('.animate-me').on('click', function() {
+            $('.box-c').addClass('animated flipOutY');
 
         });
     </script>

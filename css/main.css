@@ -67,6 +67,13 @@ left: 0;
 }
 
 
+img.berries{
+position: relative;
+left: -195px;
+width: 7%;
+top: -55px;
+}
+
 .bw-logo{
 	position: absolute;
 top: -100vh;
@@ -254,6 +261,8 @@ a img{
 a img:hover{
 	border: 1px solid transparent;
 }
+
+
 
 
 
