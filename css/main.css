@@ -109,10 +109,10 @@ left: 0;
 
 
 img.berries{
-position: relative;
-left: -195px;
+position: absolute;
+left: 6.2%;
 width: 7%;
-top: -55px;
+top: 2.6em;
 }
 
 .bw-logo{
