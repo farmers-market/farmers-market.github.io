@@ -28,25 +28,29 @@
         <h1 id="prlx_lyr_1" class="top-header animated fadeInUp"> Coming Soon!<br > NYC Farmers Market Map </h1>
         <div class="borough"><a>
             <a class="map-btn">
-                <img class="map-man" src="img/assets/manh-i.png">
+                <img class="map-man animated fadeInDown" src="img/assets/manh-i.png">
             </a>
             <a class="map-btn">
-                <img class="map-qu" src="img/assets/queens-i.png">
+                <img class="map-qu animated fadeInDown" src="img/assets/queens-i.png">
             </a>
             <a class="map-btn">
-                <img class="map-bk" src="img/assets/brooklyn-i.png">
+                <img class="map-bk animated fadeInDown" src="img/assets/brooklyn-i.png">
             </a>
             <a class="map-btn">
-                <img class="map-br" src="img/assets/bronx-i.png">
+                <img class="map-br animated fadeInDown" src="img/assets/bronx-i.png">
             </a>
             <a class="map-btn">
-                <img class="map-si" src="img/assets/staten-i.png">
+                <img class="map-si animated fadeInDown" src="img/assets/staten-i.png">
             </a>
         </div>
         <div class="lower-bar">
-            <img class="logo-ly1"src="img/assets/logolayer2.png">
-            <img class="logo-ly2"src="img/assets/logolayer3.png">
-            <img id="prlx_lyr_2"class="bw-logo"src="img/assets/bw-logo.png">
+
+   
+            <img class=" animate-me box-b logo-ly1"src="img/assets/logolayer2.png">
+   
+            <img class=" animate-me box-a logo-ly2"src="img/assets/logolayer3.png">
+  
+            <img id="prlx_lyr_2"class=" animated pulse bw-logo"src="img/assets/bw-logo.png">
 
             <nav class="top btn-right">
             <a href="mailto:farmersmarketnyc@gmail.com" target="blank">
@@ -131,6 +135,18 @@
 
     </script>
 
+    <script>
+        $('.animate-me').on('click', function() {
+            $('.box-a').addClass('animated fadeOutRight');
+
+        });
+    </script>
+      <script>
+        $('.animate-me').on('click', function() {
+            $('.box-b').addClass('animated fadeOutLeft');
+
+        });
+    </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
