@@ -20,11 +20,19 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <i class=" circle-icon fa fa-circle-o-notch fa-spin"></i>
+        </div>
+        
+    </div>
         <!--[if lt IE 7]>
             <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add content here -->
+
         <h1 id="prlx_lyr_1" class="top-header animated fadeInUp"> Coming Soon!<br > NYC Farmers Market Map </h1>
         <div class="borough"><a>
             <a class="map-btn">
@@ -51,7 +59,7 @@
             <img class=" animate-me box-a logo-ly2"src="img/assets/logolayer3.png">
             <img class="berries animate-me box-c" src="apple-touch-icon-precomposed.png">
   
-            <img id="prlx_lyr_2"class=" animated pulse bw-logo"src="img/assets/bw-logo.png">
+            <img id="prlx_lyr_2" class=" animate-me box-d animated pulse bw-logo"src="img/assets/bw-logo.png">
 
             <nav class="top btn-right">
             <a href="mailto:farmersmarketnyc@gmail.com" target="blank">
@@ -68,7 +76,7 @@
             </a>
             <a href="#" target="blank">
               <button>
-                <i class="fa fa-angellist"></i><br><br>
+                <i class=" box-e fa fa-angellist"></i><br><br>
                 angellist
               </button>
             </a>
@@ -154,6 +162,18 @@
 
         });
     </script>
+    <script>
+        $('.animate-me').on('click', function() {
+            $('.box-d').addClass('animated zoomOutLeft');
+
+        });
+    </script>
+    <script>
+        $('.animate-me').on('click', function() {
+            $('.box-e').addClass('animated pulse');
+
+        });
+    </script>
 
         <!-- Google Analytics:  -->
     <script>
@@ -165,6 +185,16 @@
   ga('create', 'UA-57429651-1', 'auto');
   ga('send', 'pageview');
 
+    </script>
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(2300).css({'overflow':'visible'});
+        })
+      //]]>
     </script>
     </body>
 </html>
