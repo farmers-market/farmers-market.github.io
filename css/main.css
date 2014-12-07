@@ -57,7 +57,14 @@ left: 0;
 }
 
 
+.bw-logo{
+	position: absolute;
+top: -100vh;
+left: 80%;
+width: 15%;
+}
 
+}
 
 
 

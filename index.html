@@ -24,11 +24,12 @@
         <![endif]-->
 
         <!-- Add content here -->
-        <h1 class="top-header animated fadeInUp"> Comming Soon!<br> Interactive Map  <span class="animated wobble">NYC</span> Farmers Market </h1>
-        <img class="animated zoomIn" src="img/farmersmarket/famrer.jpg">
+        <h1 class="top-header animated fadeInUp"> Comming Soon!<br > Interactive Map  <span id="prlx_lyr_1" class="animated wobble">NYC</span> Farmers Market </h1>
+      
         <div class="lower-bar">
             <img class="logo-ly1"src="img/assets/logolayer2.png">
             <img class="logo-ly2"src="img/assets/logolayer3.png">
+            <img id="prlx_lyr_2"class="bw-logo"src="img/assets/bw-logo.png">
         </div>
 
         <!-- No content below here -->
@@ -36,6 +37,30 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <!-- paralax-->
+    <script>
+
+        function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+       
+
+        
+      
+        prlx_lyr_1.style.top = -(window.pageYOffset/1.5)+'px';
+        prlx_lyr_2.style.top= -(window.pageYOffset/.6)+'px';
+      
+
+
+           
+
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
