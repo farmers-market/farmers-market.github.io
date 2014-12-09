@@ -148,6 +148,16 @@ nav.btn-right{
 
 }
 
+.bottom-nav{
+position: absolute;
+top: 722px;
+left: 25px;
+
+}
+
+.carrot-logo-lower{
+	width: 15%
+}
 
 
 
@@ -161,6 +171,7 @@ width: 25%;
 height: 38px;
 background-color: #F9F9F9;
 color: #4C4B4B;
+
 
 }
 
@@ -260,8 +271,11 @@ a {
 	color: #394146;
 }*/
 
-
-
+div.borough{
+position: absolute;
+left: 31%;
+top: 23%;
+}
 
 img.map-man{
 position: absolute;
@@ -329,6 +343,11 @@ a img:hover{
 
 
 
-
+.map-shadow{
+	-webkit-filter: drop-shadow(0 0 5px white);
+}
+.all-map-shadow{
+	-webkit-filter: drop-shadow(0 0 70px white);
+}
 
 
