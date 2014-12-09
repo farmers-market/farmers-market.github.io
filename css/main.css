@@ -57,7 +57,7 @@ body{
 .top-header {
 	position: relative;
 	width: 100%;
-	top:860px;
+	
 	font: 6em "Amatic SC", cursive;
 	color: #F7F1F1;
 	text-shadow: 4px 4px 0 rgba(252, 34, 34, 0.2);
@@ -84,13 +84,17 @@ div.links{
 	top: 110vh;
 	background-color: #242D55;
 	opacity: .5;
-	height: 21%;
+	height: 22vh;
 	width: 100%;
-
-
-
 }
 
+.lower-area{
+	position: absolute;
+	background-color: #1D120B;
+	top:131vh;
+	height: 800px;
+	width: 100%;
+}
 
 
 
