@@ -453,3 +453,19 @@ top: -365px;
 }
 
 }
+
+
+@media screen and (max-width: 600px){
+.main-map {
+position: relative;
+top: -258px;
+}
+}
+@media screen and (max-width: 470px){
+
+.main-map {
+position: relative;
+top: -365px;
+
+}
+]
