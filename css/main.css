@@ -23,7 +23,7 @@
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(""); /* path to your loading animation */
+    background-image:url("../img/assets/f2wa7.gif"); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -33,7 +33,8 @@
 .circle-icon{
 
 position: relative;
-left: 28%;
+left: 47%;
+top: -30px;
 }
 
 
@@ -47,7 +48,7 @@ html {
 
 body{
 	background-color:;
-	background-image: url('../img/farmersmarket/farmersmarker.jpg');
+	background-image: url('../img/assets/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -56,13 +57,13 @@ body{
 .top-header {
 	position: relative;
 	width: 100%;
-	max-width: 960px;
+	top:860px;
 	font: 6em "Amatic SC", cursive;
 	color: #F7F1F1;
 	text-shadow: 4px 4px 0 rgba(252, 34, 34, 0.2);
 	margin: 40px auto;
 	text-align: center;
-	line-height: 2em;
+	line-height: 1em;
 	z-index: 3;
 }
 
@@ -80,9 +81,10 @@ div.links{
 
 .lower-bar{
 	position: absolute;
-	top: 100vh;
+	top: 110vh;
 	background-color: #242D55;
-	height: 27%;
+	opacity: .5;
+	height: 21%;
 	width: 100%;
 
 
@@ -116,10 +118,10 @@ top: 2.6em;
 }
 
 .bw-logo{
-	position: absolute;
-top: -100vh;
-left: 80%;
-width: 15%;
+position: absolute;
+top: 24%;
+left: 42%;
+width: 13%;
 }
 
 
@@ -132,13 +134,13 @@ width: 15%;
 
 nav.top{
   position: absolute;
-  left: 370px;
- top: 12vh;
-  z-index: 3;
+left: 12px;
+/* top: 110vh; */
+z-index: 3;
 }
 
 nav.btn-right{
-  padding-left:  40%;
+  padding-left:  72%;
 
 }
 
@@ -305,8 +307,21 @@ a img:hover{
 
 
 
+.borough{
+	position: absolute;
+}
+
+.logo-carrot{
+	position: absolute;
+	top: 20%;
+	left:42%;
+	width: 15%;
+}
 
 
+.background{
+
+}
 
 
 
