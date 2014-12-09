@@ -90,10 +90,11 @@ div.links{
 
 .lower-area{
 	position: absolute;
-	background-color: #1D120B;
-	top:131vh;
-	height: 800px;
-	width: 100%;
+background-color: #1D120B;
+top: 131vh;
+height: 439px;
+overflow: hidden;
+width: 100%;
 }
 
 
@@ -150,7 +151,7 @@ nav.btn-right{
 
 .bottom-nav{
 position: absolute;
-top: 722px;
+top: 357px;
 left: 25px;
 
 }
@@ -334,6 +335,7 @@ a img:hover{
 	top: 20%;
 	left:42%;
 	width: 15%;
+	max-width: 187px;
 }
 
 
@@ -350,4 +352,104 @@ a img:hover{
 	-webkit-filter: drop-shadow(0 0 70px white);
 }
 
+.main-map{
+	position: relative;
+top: -178px;
+}
 
+
+.wraper{
+	height: 1000px
+}
+
+@media screen and (max-width: 1310px) {
+.lower-bar {
+position: absolute;
+top: 100vh;}
+
+.lower-area {
+position: absolute;
+background-color: #1D120B;
+top: 120vh;
+}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	.lower-bar {
+position: absolute;
+top: 90vh;
+background-color: #242D55;
+opacity: .5;
+height: 14vh;
+
+}
+
+.lower-area {
+position: absolute;
+background-color: #1D120B;
+top: 100vh;
+}
+}
+
+@media screen and (max-width: 870px) {
+.top-header {
+position: relative;
+width: 100%;
+font: 6em "Amatic SC", cursive;
+margin: -7px auto;
+color: #F7F1F1;
+text-shadow: 4px 4px 0 rgba(252, 34, 34, 0.2);
+margin: -8px auto;
+
+}
+.main-map{
+position: relative;
+top: -229px;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+	.lower-are{
+position: absolute;
+background-color: #1D120B;
+top: 100vh;
+height: 439px;
+overflow: hidden;
+width: 100%;
+}
+.top-header {
+position: relative;
+top: 6px;
+width: 100%;
+font: 6em "Amatic SC", cursive;
+margin: -7px auto;
+color: #F7F1F1;
+text-shadow: 4px 4px 0 rgba(252, 34, 34, 0.2);
+margin: 0px auto; 
+}
+
+
+.main-map {
+position: relative;
+top: -272px;
+}
+
+
+.lower-bar {
+position: absolute;
+top: 94vh;
+background-color: #242D55;
+opacity: .5;
+height: 8vh;
+width: 100%;
+}
+
+.main-map {
+position: relative;
+top: -365px;
+}
+
+}
