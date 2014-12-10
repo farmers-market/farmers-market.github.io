@@ -8,12 +8,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="height=2000, initial-scale=1">
          <!-- sass generated style 'framework' -->
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/modal.css">
         <!-- user override styles-->
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -40,7 +41,7 @@
             <a href="mailto:farmersmarketnyc@gmail.com" target="blank">
               <button class="email">
                 <i class="fa fa-envelope-o"></i><br><br>
-                Email
+                email
               </button>
             </a>
             <a href="https://github.com/farmers-market" target="blank">
@@ -49,7 +50,7 @@
                 git-hub
               </button>
             </a>
-            <a href="#" target="blank">
+            <a href="https://angel.co/farmers-market-nyc-1" target="blank">
               <button>
                 <i class=" box-e fa fa-angellist"></i><br><br>
                 angellist
@@ -63,22 +64,22 @@
             </a>
           </nav>
           <nav class="top  ">
-            <a href="#">
+            <a href="#" data-toggle="modal" data-targer=".modal5">
               <button>
                 <i class="fa fa-database"></i><br><br>
-                Services
+                services
               </button>
             </a>
-            <a href="#">
+            <a href="#"  class="nav-right-toggle">
               <button>
                 <i class="fa fa-paper-plane"></i><br><br>
-                About
+                about
               </button>
             </a>
-            <a href="#">
-              <button>
+            <a href="#" class="nav-left-toggle">
+              <button >
                 <i class="fa fa-cogs"></i><br><br>
-                Links
+                links
               </button>
             </a>
           </nav>
@@ -97,7 +98,7 @@
             <a href="mailto:farmersmarketnyc@gmail.com" target="blank">
               <button class="email">
                 <i class="fa fa-envelope-o"></i><br><br>
-                Email
+                email
               </button>
             </a>
             <a href="https://github.com/farmers-market" target="blank">
@@ -106,7 +107,7 @@
                 git-hub
               </button>
             </a>
-            <a href="#" target="blank">
+            <a href="https://angel.co/farmers-market-nyc-1" target="blank">
               <button>
                 <i class=" box-e fa fa-angellist"></i><br><br>
                 angellist
@@ -120,27 +121,38 @@
             </a>
           </nav>
           <nav class="bottom-nav  ">
-            <a href="#">
+            <a href="#" data-toggle="modal" data-targer=".modal5">
               <button>
                 <i class="fa fa-database"></i><br><br>
-                Services
+                services
               </button>
             </a>
-            <a href="#">
+            <a href="#"  class="nav-right-toggle">
               <button>
                 <i class="fa fa-paper-plane"></i><br><br>
-                About
+                about
               </button>
             </a>
-            <a href="#">
-              <button>
+            <a href="#" class="nav-left-toggle">
+              <button >
                 <i class="fa fa-cogs"></i><br><br>
-                Links
+                links
               </button>
             </a>
           </nav>
           </div>
-         
+
+        <!-- left-nav -->
+
+  <nav class="nav-left-side">
+    <a href="#" class="nav-left-toggle pull-right">close</a> 
+    </nav>
+
+  <nav class="nav-right-side">
+    <a href="#" class="nav-right-toggle pull-right">close</a> 
+
+
+
         <!-- No content below here -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -206,6 +218,24 @@ if(screen.width < 980) {
 
         });
     </script>
+    <script>
+    (function() {
+      var body = $('body');
+      $('.nav-right-toggle').bind('click', function() {
+        body.toggleClass('nav-right-open');
+        return false;
+    });
+    })();
+  </script>
+  <script>
+    (function() {
+      var body = $('body');
+      $('.nav-left-toggle').bind('click', function() {
+        body.toggleClass('nav-left-open');
+        return false;
+    });
+    })();
+  </script>
 
         <!-- Google Analytics:  -->
     <script>

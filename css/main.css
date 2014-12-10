@@ -362,6 +362,77 @@ top: -178px;
 	height: 1000px
 }
 
+
+
+
+/* Left Menu */
+.nav-left{
+    overflow-x: hidden;
+    position: relative;
+    left: 40%;
+}
+.nav-left-open{
+    left:40%;
+}
+.nav-left-open .nav-left-side{
+    left:0;
+}
+.nav-left-side,
+.nav-left{
+    -webkit-transition: left .2s ease;
+    -moz-transition: left .2s ease;
+    transition: left .2s ease;
+}
+.nav-left-side{
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top:0;
+    left:-45%;
+    width: 40%;
+    height:100%;
+    padding:10px;
+    z-index: 3;
+    
+}
+
+
+
+/* Right Menu */
+.nav-right{
+    overflow-x: hidden;
+    position: relative;
+    right: 40%;
+}
+.nav-right-open-{
+    right:40%px;
+}
+.nav-right-open .nav-right-side{
+    right:0;
+}
+.nav-right-side,
+.nav-right{
+    -webkit-transition: right .2s ease;
+    -moz-transition: right .2s ease;
+    transition: right .2s ease;
+}
+.nav-right-side{
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top:0;
+    right:-45%;
+    width: 40%;
+    height:100%;
+    padding:10px;
+    z-index: 3;
+}
+
+
+
+
+
 @media screen and (max-width: 1310px) {
 .lower-bar {
 position: absolute;
